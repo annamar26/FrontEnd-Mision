@@ -1,0 +1,121 @@
+    * {
+        color: #4c56a0;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 1.5em;
+        background-color: #fbefe3;
+        padding: 0.5em;
+        width: 100%;
+    }
+    
+    .header-sucursales {
+        width: 50%;
+    }
+    
+    .header-socialmedia {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.3em;
+    }
+    
+    nav {
+        width: 100%;
+        height: 33vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fbd0c7;
+        padding: 1.5em;
+    }
+    
+    nav>img {
+        width: 12em;
+    }
+    
+    nav>li {
+        width: 100%;
+        background-color: #fbd0c7;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #mainImg {
+        height: 70vh;
+        width: 100%;
+    }
+    
+    .grid-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 2em;
+    }
+    
+    #grid {
+        height: 45vh;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 2em;
+    }
+    
+    .img-products {
+        width: 100%;
+        height: 100%;
+        background-color: #fbd0c7;
+    }
+    
+    .info {
+        width: 100%;
+        height: 5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+    
+    .info>div {
+        width: 100%;
+        background-color: #fbd0c7;
+        text-align: center;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        text-align: center;
+
+        
+    }
