@@ -1,0 +1,28 @@
+{
+  "name": "html-practicas",
+  "version": "1.0.0",
+  "description": "Maquetacion html para practica 2 de Mission Frontend de Inovaccion virtual para la certificacion de Microsoft en FullstaCk Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annamar26/FrontEnd-Mision.git"
+  },
+  "keywords": [
+    "HTML",
+    "microsoft",
+    "practica"
+  ],
+  "author": "Ana Marlen Aguilar López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annamar26/FrontEnd-Mision/issues"
+  },
+  "homepage": "https://github.com/annamar26/FrontEnd-Mision#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
