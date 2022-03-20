@@ -1,0 +1,228 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(233, 241, 252, 1) 100%,
+    rgba(233, 241, 252, 1) 100%
+  );
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+li {
+  list-style: none;
+}
+.title {
+  width: 20%;
+  align-self: flex-start;
+}
+.button-ul {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3em;
+}
+.button-ul > button {
+  width: 8em;
+  height: 2.5em;
+  background-color: #2b4bc9;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 1px 5px 5px 3px #031e884d;
+  font-size: 1em;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100wv;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8em;
+}
+.main > section {
+  width: 60vw;
+  padding: 3em;
+}
+.main > section > h1 {
+  font-size: 4.5em;
+  font-weight: 500;
+  width: 75%;
+}
+.main > section > p {
+  font-size: 1.5em;
+  width: 80%;
+}
+.main > section > section {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  width: 80%;
+  gap: 2em;
+  align-items: flex-end;
+}
+.main > img {
+  margin-top: 10em;
+  height: 100vh;
+  z-index: -1;
+}
+.upper {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 70%;
+  z-index: 2;
+  top: 78vh;
+  padding: 2em;
+  left: 7.5em;
+  background-color: #ffffffcc;
+  border-radius: 0.5em;
+  box-shadow: 1px 5px 5px 3px #010a2e17;
+}
+.upper > table {
+  width: 80%;
+  font-size: 1.5em;
+}
+.upper > button {
+  width: 10em;
+  background-color: #2b4bc9;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1.5em;
+  box-shadow: 1px 5px 5px 3px #031e884d;
+}
+.selected {
+  font-weight: 700;
+  font-size: 2em;
+}
+.selected2 {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.vacunas {
+  width: 100%;
+}
+.second {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.second > h1 {
+  font-size: 3em;
+  padding-left: 5em;
+  width: 100%;
+}
+.second > p {
+  font-size: 1.5em;
+  width: 50%;
+  padding-left: 5em;
+  align-self: flex-start;
+}
+.second > .grid {
+  padding: 5em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  gap: 5em;
+}
+.card {
+  width: 90%;
+  border: solid 3px rgba(128, 128, 128, 0.253);
+  height: 30em;
+  padding: 2.5em;
+  border-radius: 1.5em;
+}
+.card > h3 {
+  width: fit-content;
+  font-size: 2em;
+}
+.card > p {
+  width: fit-content;
+  font-size: 1.4em;
+}
+.thirth {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8em;
+}
+.thirth > img {
+  height: 95vh;
+  width: 50vw;
+  margin-right: 8em;
+}
+.thirth > section {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirth > section > h1 {
+  font-size: 3em;
+  width: 70%;
+}
+.thirth > section > p {
+  font-size: 1.5em;
+  width: 70%;
+
+  text-align: left;
+}
+.thirth > section > section > section {
+  margin-left: 2em;
+  font-size: 1.5em;
+  width: 70%;
+  border-radius: 1em;
+  border: solid 3px rgba(128, 128, 128, 0.123);
+  margin-bottom: 1em;
+  text-align: left;
+}
+.thirth > section > section > section > h4 {
+  font-size: 0.8em;
+  margin-left: 2em;
+}
+.thirth > section > section > section > p {
+  font-size: 0.5em;
+  margin-left: 3em;
+}
+.cuarta>section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.cuarta>section>h1{
+   width: 100%;
+   margin-left: 3em;
+  
+}
+footer>img{
+    margin-top: 7em;
+    width: 100%;
+    z-index: -1;
+ 
+}
